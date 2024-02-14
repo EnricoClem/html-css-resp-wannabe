@@ -199,6 +199,10 @@ img {
 /* Media query SMARTPHONE */
 
 @media screen and (max-width: 480px) {
+
+    .container {
+        padding: 0 100px;
+    }
     
     /* Header */
 
@@ -209,6 +213,40 @@ img {
     h1 {
         font-size: 120px;
         margin-bottom: 8rem;
+    }
+
+    h2 {
+        font-size: 95px;
+        margin-bottom: 7rem;
+    }
+
+    /* Lessons */
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .lessons .col img {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 3rem;
+    }
+
+    h3 {
+        font-size: 70px;
+        margin-bottom: 3rem;
+    }
+
+    p {
+        font-size: 48px;
+    }
+
+    .col {
+        margin-bottom: 12rem;
     }
 
 }
