@@ -270,6 +270,26 @@ img {
 
     .why-us {
         background-color: #222222;
+        margin: 0;
+        padding: 8rem 0 3rem 0;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us img {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 3rem;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us li {
+        margin-bottom: 8rem;
     }
 
 }
