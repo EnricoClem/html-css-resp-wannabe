@@ -164,7 +164,7 @@ img {
     }
 
     p {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     /* Steps */
@@ -176,6 +176,21 @@ img {
     .steps .col img {
         height: 260px;
         margin-bottom: 3.5rem;
+    }
+
+    /* Why us */
+
+    .why-us {
+        margin-bottom: 5rem;
+    }
+
+    .why-us .container .text-center {
+        padding-top: 2rem;
+    }
+
+    .col {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 }
