@@ -132,6 +132,8 @@ img {
 
 @media screen and (max-width: 768px) {
 
+    /* header titles */
+
     body {
         width: fit-content;
     }
@@ -143,4 +145,19 @@ img {
     h2 {
         font-size: 50px;
     }
+
+    /* Lessons cards */
+
+    .lessons .col img {
+        height: 300px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
 }
