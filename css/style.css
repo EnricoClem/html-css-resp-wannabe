@@ -131,7 +131,16 @@ img {
 /* Media query TABLET */
 
 @media screen and (max-width: 768px) {
-    .site-header {
-        margin-left: 50%;
-        }
+
+    body {
+        width: fit-content;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
 }
