@@ -249,4 +249,22 @@ img {
         margin-bottom: 12rem;
     }
 
+    /* Steps */
+
+    .steps {
+        padding: 8rem 0 2rem 0;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .steps .col img {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 3rem;
+    }
+
+    /* Why us */
+
 }
