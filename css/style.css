@@ -134,16 +134,22 @@ img {
 
     /* header titles */
 
+    .site-header {
+        margin-top: 5rem;
+    }
+
     body {
         width: fit-content;
     }
 
     h1 {
         font-size: 60px;
+        margin-bottom: 4rem;
     }
 
     h2 {
         font-size: 50px;
+        margin-bottom: 5rem;
     }
 
     /* Lessons cards */
@@ -154,10 +160,22 @@ img {
 
     h3 {
         font-size: 35px;
+        margin-bottom: 2rem;
     }
 
     p {
         font-size: 25px;
+    }
+
+    /* Steps */
+
+    .steps {
+        padding: 5rem 0;
+    }
+
+    .steps .col img {
+        height: 260px;
+        margin-bottom: 3.5rem;
     }
 
 }
