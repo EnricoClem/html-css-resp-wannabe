@@ -200,4 +200,15 @@ img {
 
 @media screen and (max-width: 480px) {
     
+    /* Header */
+
+    .site-header {
+        margin-top: 8rem;
+    }
+
+    h1 {
+        font-size: 120px;
+        margin-bottom: 8rem;
+    }
+
 }
